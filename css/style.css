@@ -1,0 +1,132 @@
+﻿@import url(http://allfont.ru/allfont.css?fonts=open-sans);
+
+body {
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+    width: 1060px;
+    margin: 0px auto 40px;
+    padding: 46px;
+    background-color: #ffffff;
+    text-align: center;
+	border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+	box-shadow: 0 0 2px 2px #dbdbdb;
+}
+
+header {
+	width: 100%;
+	text-align: left;
+}
+
+nav {
+	margin: 40px 0px;
+	height: 40px;
+	background-image: -moz-linear-gradient(top,#5e5e5e, #444343);
+	font-family: 'Open Sans', arial;
+	font-size: 17px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+	display: block;
+	text-decoration:none;
+    padding : 11px 30px;
+	color: #ffffff;
+}
+
+nav li a:hover {
+	background-image: -moz-linear-gradient(top,#4a4a4a, #2e2e2e);
+	background-image:-webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#2e2e2e));
+	padding: 11px 29px;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+aside {
+	float: left;
+    text-align: left;
+}
+
+.dopmenu {
+	font-family: 'Open Sans', arial;
+}
+
+.dopmenu li a {
+	width: 240px;
+	padding : 17px 29px;
+	display: block;
+	text-decoration:none;
+	border: 1px solid #c8c8c8;
+	color: #656363;
+	transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -webkit-transition:all 0.3s linear;
+}
+
+.dopmenu li a:hover {
+	width: 208px;
+	padding : 17px 29px;
+	background:#f9f9f9;
+	color: #2c2c2c;
+	padding : 17px 45px;
+}
+
+section {
+	display: block;
+    overflow:hidden;
+}
+
+section img {
+	margin-left: 56px;
+    border: 1px solid #c8c8c8;
+    padding : 56px 100px;
+}
+
+.content {
+    margin-top: 0px;	
+	font-family: 'Open Sans', arial;
+	text-align: left;
+	line-height:22px;
+	font-size: 13px;
+	padding: 40px 30px 40px 100px;
+}
+
+footer {
+	margin-top: 20px;
+	height: 40px;
+	width: 100%;
+	text-align: left;
+	background-color: #e1e1e1;
+}
+
+.menufooter li {
+	display: inline-block;
+	font-family: 'Open Sans', arial;
+	font-size: 17px;
+	float: left;
+}
+
+.menufooter li a {
+	display: block;
+	text-decoration:none;
+    padding : 11px 30px;
+	color: #2c2c2c;
+}
+
+.menufooter li a:hover {
+	text-decoration:underline;
+}
+
+footer p {
+	display:block;
+	float:right;
+	font-family: 'Open Sans', arial;
+	font-size: 14px;
+	margin-right: 20px;
+	margin-top:12px;
+} 
