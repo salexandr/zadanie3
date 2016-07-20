@@ -25,7 +25,7 @@ nav {
 	height: 40px;
 	background-image: -moz-linear-gradient(top,#5e5e5e, #444343);
     background-image:-webkit-gradient(linear, left top, left bottom, from(#5e5e5e), to(#444343));
-	font-family: 'Open Sans', arial;
+	font-family: 'Open Sans', Arial;
 	font-size: 17px;
 }
 
@@ -54,7 +54,7 @@ aside {
 }
 
 .dopmenu {
-	font-family: 'Open Sans', arial;
+	font-family: 'Open Sans', Arial;
 }
 
 .dopmenu li a {
@@ -62,16 +62,15 @@ aside {
 	padding : 17px 29px;
 	display: block;
 	text-decoration:none;
-	border-left: 1px solid #c8c8c8;
-	border-right: 1px solid #c8c8c8;
-	border-bottom: 2px solid #c8c8c8;
+    border: 1px solid #c8c8c8;
+    border-top:none;
 	color: #656363;
 	transition:all 0.3s linear;
     -moz-transition:all 0.3s linear;
     -webkit-transition:all 0.3s linear;
 }
 
-.dopmenu li a:first-child {
+.dopmenu li:first-child {
 	border-top: 1px solid #c8c8c8;
 }
 
@@ -96,7 +95,7 @@ section img {
 
 .content {
     margin-top: 0px;	
-	font-family: 'Open Sans', arial;
+	font-family: 'Open Sans', Arial;
 	text-align: left;
 	line-height:22px;
 	font-size: 13px;
@@ -113,7 +112,7 @@ footer {
 
 .menufooter li {
 	display: inline-block;
-	font-family: 'Open Sans', arial;
+	font-family: 'Open Sans', Arial;
 	font-size: 17px;
 	float: left;
 }
@@ -132,7 +131,7 @@ footer {
 footer p {
 	display:block;
 	float:right;
-	font-family: 'Open Sans', arial;
+	font-family: 'Open Sans', Arial;
 	font-size: 14px;
 	margin-right: 20px;
 	margin-top:12px;
